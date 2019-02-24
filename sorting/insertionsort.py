@@ -2,6 +2,7 @@
 #License: MIT
 
 def iss(ary):
+    """Sorts an array in a nondecreasing order""" 
     ary_len = len(ary)
     for i in range(ary_len):
         j = i
