@@ -39,4 +39,5 @@ def nonLetterCount(txt):
 
 
 if __name__ == "__main__":
-    nonLetterCount("Hello world world hello ahmed ahmed helmig algle ** !! \n Hallo Welt")
+    nonLetterCount("""Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean est augue, accumsan sit amet ante sit amet, sollicitudin suscipit dolor. Ut sapien nisl, condimentum quis tempus non, facilisis sed erat. Nunc sodales eget ante non sollicitudin. Phasellus purus turpis, efficitur id placerat eget, porttitor in augue. Donec sed enim felis. Aenean venenatis mauris non risus lacinia semper. Suspendisse ornare est in vehicula fringilla. Cras eget ultricies sem. Mauris vitae leo interdum, interdum sem ut, tincidunt eros. Fusce dapibus sed nulla vel auctor. Quisque pretium libero augue, vel rhoncus justo rhoncus et.
+    Nam nec dolor augue. Aliquam consequat sed lorem sit amet viverra. Donec orci erat, eleifend non leo a, lacinia egestas turpis. Nunc at ex pulvinar, finibus arcu gravida, aliquet tellus. Cras vestibulum urna eget dolor eleifend, posuere fermentum nulla hendrerit. Suspendisse porttitor ipsum a luctus egestas. Mauris dapibus bibendum tortor. Pellentesque tortor arcu, interdum sit amet aliquet eu, auctor quis sapien. Vivamus iaculis interdum rutrum. Interdum et malesuada fames ac ante ipsum primis in faucibus.""")
