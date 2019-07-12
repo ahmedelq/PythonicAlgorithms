@@ -8,6 +8,7 @@ def rbgToHex(*clr):
     return '#' + ''.join([
         hex(c)[2:].zfill(2) for c in clr 
         ]).upper()
+        
 def blend(clrs):
     """Given a list of hexcolor, will return their average"""
     import re
