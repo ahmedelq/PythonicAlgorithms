@@ -2,7 +2,7 @@
 #1 2 3 4 5 6 7...
 
 def fib(n):
-    """spits Fib_n value """ 
+    """spits Fib_n value dynamically """ 
     # operates in O(n), storage in O(1)
     c=1 #c = current
     p=c #p = previous
