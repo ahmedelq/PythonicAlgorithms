@@ -49,7 +49,7 @@ def sort(files, d_path):
     for file in files:
         try:
             f_stat = file.stat()
-            f_timestamp = min(f_stat.st_mtime, f_stat.st_ctime)
+            f_timestamp = abs(min(f_stat.st_mtime, f_stat.st_ctime))
             f_date = datetime.datetime.fromtimestamp(f_timestamp)
             ext = file_ext(file.name)
             new_folder = f'{d_path}\\{f_date.year}\\{f_date.month}\\{ext}'
